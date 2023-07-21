@@ -1,0 +1,12 @@
+INDEX VERSION 1.134+C:\Users\diurno\Documents\FullTechJava\01_JavaProgrammer\.metadata\.plugins\org.eclipse.jdt.core
+3512273513.index
+2465905169.index
+1880678823.index
+3035327471.index
+3808387112.index
+1062067749.index
+2024036908.index
+3756317292.index
+1865797976.index
+1116692827.index
+700805571.index

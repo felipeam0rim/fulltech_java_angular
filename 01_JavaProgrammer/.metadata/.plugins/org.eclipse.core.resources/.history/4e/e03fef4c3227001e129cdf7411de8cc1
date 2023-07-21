@@ -1,0 +1,9 @@
+package com.capgemini.fulltech.classes;
+
+public class Curso {
+	
+	private int curso;
+	private String descricao;
+	private int ch;
+	private double preco;
+}

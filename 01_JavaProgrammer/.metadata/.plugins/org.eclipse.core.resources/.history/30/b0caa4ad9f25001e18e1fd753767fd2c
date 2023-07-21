@@ -1,0 +1,20 @@
+package com.capgemni.fulltech.arrays;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio01 {
+	public static void main(String[] args) {
+		
+		int qturmas = Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade de turmas: "));
+		int qturmas = Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade de turmas: "));
+		int qturmas = Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade de turmas: "));
+		
+		
+		
+		
+		String[] turmas = new String[qTurmas];
+		
+		String[] alunos = new String[];
+		
+	}
+}

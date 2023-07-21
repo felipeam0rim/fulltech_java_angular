@@ -1,0 +1,5 @@
+package com.capgemini.fulltech.interfaces;
+
+public class DocumentoCnpj {
+
+}

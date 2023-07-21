@@ -1,0 +1,8 @@
+package com.capgemini.fulltech.classes;
+
+public class Endereco {
+	//atributos da classe
+	String logradouro, cep, cidade;
+	int numero;
+	
+}

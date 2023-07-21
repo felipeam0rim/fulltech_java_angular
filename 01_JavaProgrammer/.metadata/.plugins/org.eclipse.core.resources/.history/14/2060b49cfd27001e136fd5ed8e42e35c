@@ -1,0 +1,21 @@
+package com.capgemini.fulltech.interfaces;
+
+public class DocumentoCpf implements Documento {
+	private String numero;
+
+	@Override
+	public void setNumero(String numero) {
+		if(numero == null || !numero.matches("[0-9]{11}")) {
+			throw new IllegalArgumentException("O CPF deve conter 11 dígitos numéricos.");
+		}
+	}
+
+	@Override
+	public String getInfoDocumento() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+}

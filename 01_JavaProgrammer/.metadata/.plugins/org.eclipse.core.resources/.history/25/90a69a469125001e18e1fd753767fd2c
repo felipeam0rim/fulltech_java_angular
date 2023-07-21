@@ -1,0 +1,27 @@
+package com.capgemni.fulltech.arrays;
+
+import javax.swing.JOptionPane;
+
+public class Arrays02 {
+	public static void main(String[] args) {
+		int tamanho = Integer.parseInt(JOptionPane.showInputDialog("Quantos nomes?"));
+		
+		String[] nomes = new String[tamanho];
+		
+		for (int i = 0; i < nomes.length; i++) {
+			nomes[i] = JOptionPane.showInputDialog("Informe o " + i + "º nome: ");
+			System.out.println(nomes[i]);
+			
+		}
+		
+		String busca = JOptionPane.showInputDialog("Informe um texto de busca: ");
+		
+		for (String nome : nomes) {
+			if(nome.contains(busca)){
+				System.out.println(nome);
+			}
+		}
+		
+		
+	}
+}

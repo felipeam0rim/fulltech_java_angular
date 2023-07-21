@@ -1,0 +1,7 @@
+package com.capgemini.fulltech.comandoif;
+
+public class Exercicio02_CaixaEletronico {
+	public static void main(String[] args) {
+		
+	}
+}

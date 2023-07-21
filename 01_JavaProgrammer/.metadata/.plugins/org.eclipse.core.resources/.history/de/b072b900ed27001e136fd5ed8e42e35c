@@ -1,0 +1,17 @@
+package com.capgemini.fulltech.aplicacao;
+
+import javax.swing.JOptionPane;
+
+import com.capgemini.fulltech.figuras.Figura;
+
+public class AppFigura {
+	public static void main(String[] args) {
+		
+	}
+	
+	public static void mostrarFigura() {
+		String resultado = "Classe da figura: " + Figura.getClass().getSimpleName()
+				+ "\nÁrea da Figura: " + Figura.calcularArea();
+		JOptionPane.showMessageDialog(null, resultado);
+	}
+}

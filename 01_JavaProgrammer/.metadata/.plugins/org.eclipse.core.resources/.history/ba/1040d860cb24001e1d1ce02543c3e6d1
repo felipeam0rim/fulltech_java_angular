@@ -1,0 +1,10 @@
+package com.capgemini.fulltech.comandoif;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio01 {
+	public static void main(String[] args) {
+		double salario = Double.parseDouble(JOptionPane.showInputDialog("Valor do Salário:"));
+		double transporte = Double.parseDouble(JOptionPane.showInputDialog("Gasto com transporte:"));
+	}
+}

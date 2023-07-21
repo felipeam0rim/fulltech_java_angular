@@ -1,0 +1,8 @@
+package com.capgemini.fulltech.figuras;
+
+public abstract class Figura {
+	
+	public double calcularArea() {
+		return 0;
+	}
+}

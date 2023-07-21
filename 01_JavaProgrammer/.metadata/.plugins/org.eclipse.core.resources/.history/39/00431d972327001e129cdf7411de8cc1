@@ -1,0 +1,10 @@
+package com.capgemini.fulltech.aplicacao;
+
+import com.capgemini.fulltech.classes.Pessoa;
+import com.capgemini.fulltech.enumeracoes.Sexos;
+
+public class AppPolimorfismo {
+ public static void main(String[] args) {
+	Pessoa p1 = new Pessoa("Beatrice", 24, Sexos.FEMININO);
+}
+}

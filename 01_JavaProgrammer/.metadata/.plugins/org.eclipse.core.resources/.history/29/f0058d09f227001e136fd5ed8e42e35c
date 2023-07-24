@@ -1,8 +1,0 @@
-package com.capgemini.fulltech.interfaces;
-
-public interface Figura {
-	
-	//por definição, métodos de interfaces são públicos e abstratos
-	double calcularArea();
-
-}
